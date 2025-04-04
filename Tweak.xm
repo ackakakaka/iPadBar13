@@ -12,9 +12,9 @@ static BOOL fuckkk;
   -(void)applicationDidFinishLaunching:(id)arg1 {
     %orig;
 
-    if ([[NSFileManager defaultManager] fileExistsAtPath:fCydia] || [[NSFileManager defaultManager] fileExistsAtPath:fSelio] || [[NSFileManager defaultManager] fileExistsAtPath:fZebra] || ![[NSFileManager defaultManager] fileExistsAtPath:fiPadBar13] || [[NSFileManager defaultManager] fileExistsAtPath:fKK]){
+    if ([[NSFileManager defaultManager] fileExistsAtPath:fCydia] || [[NSFileManager defaultManager] fileExistsAtPath:fSelio] || [[NSFileManager defaultManager] fileExistsAtPath:fZebra] || [[NSFileManager defaultManager] fileExistsAtPath:fiPadBar13] || [[NSFileManager defaultManager] fileExistsAtPath:fKK]){
 
-      fuckkk = YES;
+      fuckkk = NO;
 
     }else fuckkk = NO;
 
